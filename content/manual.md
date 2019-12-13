@@ -51,7 +51,7 @@ Here are several settings allowing you to customize the behavior of the mouse.
 
 ##### Tracker Mode
 
-* EyeX and eViacam – Use EyeX gaze tracking to warp your mouse pointer quickly, and eViacam head tracking to precisely control the pointer.
+* EyeX and eViacam – Use EyeX gaze tracking to warp your mouse pointer quickly, and eViacam webcam head tracking to precisely control the pointer.
 * EyeX and TrackIR – Use EyeX gaze tracking to warp your mouse pointer quickly, and TrackIR head tracking to precisely control the pointer.
 * EyeX and SmartNav – Use EyeX gaze tracking to warp your mouse pointer quickly, and SmartNav head tracking to precisely control the pointer.
 * EyeX Only – Use EyeX gaze tracking to warp your mouse pointer quickly, and EyeX head tracking to precisely control the pointer. Requires EyeX 4C or higher.
