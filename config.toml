@@ -1,0 +1,103 @@
+baseURL = "https://precisiongazemouse.org/"
+languageCode = "en-us"
+title = "Precision Gaze Mouse"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = false
+DefaultContentLanguage = "en"
+
+# Site Params
+[params]
+    logo = "images/precision-gaze-mouse-logo.png"
+    
+    # meta data
+    author = "Precision Gaze Mouse"
+    description = "Control your mouse by looking at your screen. It combines the speed of eye tracking with the precision of head tracking."
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+    ############# 2 - Site en ENGLISH
+    [Languages.en]
+    weight = 2
+    languageCode = "en-us"
+    title = "Precision Gaze Mouse"
+    dateFormat = "January 2, 2006"
+
+    home = "Home"
+    logo = "images/precision-gaze-mouse-logo.png"
+    menufixed = false
+
+    # Hero Area Section
+    [Languages.en.params.hero]
+        enable  = true
+        heading = "Control your mouse by looking at your screen"
+        button  = true
+        btnText = "Download"
+        btnURL  = "install/publish.htm"
+        videoThumb = "images/video-thumbnail.png"
+        videoURL   = "https://www.youtube.com/embed/htbBH0W5F78"
+
+    # About 2 Section
+    [Languages.en.params.aboutSm]
+        enable  = true
+        title   = "How it works"
+        description = """
+We combine the speed of eye gaze tracking with the precision of head tracking. 
+
+Eye gaze tracking lets you instantly move or “warp” the mouse pointer to the area of the screen where you’re looking. Often, it will warp right where you want the pointer, but sometimes you’ll need to make a small adjustment.
+        
+Move your head slightly up and down or to the side to precisely click on small buttons or pieces of text. It only requires a small movement to adjust the pointer.
+
+When you move your regular mouse, the Precision Gaze Mouse pauses automatically so your regular mouse can take over. This lets you easily switch back and forth.
+
+Precision Gaze Mouse is free open source software. It currently supports [Windows](install/publish.htm) and people are working on [Linux support](https://github.com/PrecisionGazeMouse/PrecisionGazeMouse/issues/23).
+
+Learn more about how it works in our [user manual](manual)."""
+
+    # About 2 Section 2
+    [Languages.en.params.aboutSm2]
+        enable  = true
+        title   = "Better precision than other eye trackers"
+        description = """
+Other eye tracking solutions struggle to offer precision resulting in a pointer that jitters or requires a cumbersome "zooming in" process to click on small targets. The eye naturally jitters (or saccades) when you look at a fixed point, even though you don't notice it happening. This limits the precision of eye tracking.
+
+The Precision Gaze Mouse gives you smooth control by not changing position until you look outside a small 1-4 cm radius. Head tracking is used to point at small targets within this radius. As a result, you get natural mouse control with both speed and precision.
+
+Learn more about [why I created Precision Gaze Mouse](why)."""
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "why"
+        url     = "why"
+        weight  = 2
+    [[menu.nav]]
+        name    = "manual"
+        url     = "manual"
+        weight  = 3
+    [[menu.nav]]
+        name    = "github"
+        url     = "https://github.com/PrecisionGazeMouse/PrecisionGazeMouse"
+        weight  = 4
+    [[menu.nav]]
+        name    = "help"
+        url     = "https://github.com/PrecisionGazeMouse/PrecisionGazeMouse/issues"
+        weight  = 4
+    [[menu.nav]]
+        name    = "download"
+        url     = "install/publish.htm"
+        weight  = 5

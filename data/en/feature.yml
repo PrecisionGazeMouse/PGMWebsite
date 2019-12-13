@@ -1,0 +1,16 @@
+enable  : true
+item  :
+  - icon  : tf-ion-ios-eye-outline
+    title : Use your mouse without hands!
+    description : >
+      Cameras track and move the mouse pointer where you are looking.
+
+  - icon  : tf-ion-ios-timer-outline
+    title : Speed and precision
+    description : >
+      Combines speed of eye tracking with precision of head tracking.
+
+  - icon  : tf-ion-ios-cog-outline
+    title : Supports multiple devices
+    description : >
+      Use with Tobii EyeX, webcams, and more.

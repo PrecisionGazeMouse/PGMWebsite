@@ -1,0 +1,24 @@
+#blog-page ol, ul {
+    margin: 20px;
+    list-style: disc;
+}
+
+p {
+    font-family: "Titillium Web", sans-serif;
+    color: #4c4c4c;
+    font-size: 18px;
+}
+
+.navigation {
+    transition: .3s all;
+    background: #000;
+}
+  
+.navbar-title {
+    color: #fff;
+}
+
+.post-item .post-content p {
+    color: #4c4c4c;
+    margin: 10px 0;
+}
