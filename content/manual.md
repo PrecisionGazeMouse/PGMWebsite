@@ -5,7 +5,7 @@ description: "This is meta description"
 
 ## System requirements
 
-To run this software, you need to install a gaze tracker, such as Tobii EyeX, and optionally a head tracker device. I recommend having both for the best experience. It also requires Windows 7 or higher. I’ve tested with the below hardware, but other options may work.
+To run this software, I recommend you install a gaze tracker, such as Tobii EyeX, and a head tracker such as webcam or TrackIR. It also requires Windows 7 or higher. I’ve tested with the below hardware, but other options may work.
 
 **Recommended Hardware:**
 
