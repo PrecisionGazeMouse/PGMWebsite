@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>doDPjs3Ip4ndsSCa1iYb1JsgYszWjI91j9TCuT3qe0g=</dsig:DigestValue>
+        <dsig:DigestValue>ZA6FUrhT1ZxARsLmPyrEk2HYgErnQ7SrD5CnXIVy1vw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -110,7 +110,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>T1qrE7RN+3INGkRZjd1CqKN4kCdyiZUTPUPVnXmVyhQ=</dsig:DigestValue>
+        <dsig:DigestValue>83S8sS3Mn8+8or/FXbaP/0S493tDzPQpYVhSoDi2Ba0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -130,6 +130,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>zs3lJw/B/6DzkxPhO7X4bPudKQ5i7TnzRLJQPrEiDFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Tobii.EyeX.Client.dll" size="868928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Kh2iHUARkCfLnYb9hSf1NzGXkNsSOR3itk+EKklgB+Q=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

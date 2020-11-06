@@ -14,14 +14,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\PrecisionGazeMouse_1_13_0_0\PrecisionGazeMouse.exe.manifest" size="8475">
+    <dependentAssembly dependencyType="install" codebase="Application Files\PrecisionGazeMouse_1_13_0_0\PrecisionGazeMouse.exe.manifest" size="8876">
       <assemblyIdentity name="PrecisionGazeMouse.exe" version="1.13.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>RB9XFW7lbfWG86LU8ZtMicxrCQSR+W3zaelhk8ZAWIs=</dsig:DigestValue>
+        <dsig:DigestValue>CBuGqanoTPMrvoyEmcJEAJrrYrpfvg/8+IDvhWStFt0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
