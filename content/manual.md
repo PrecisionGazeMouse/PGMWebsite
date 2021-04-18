@@ -20,7 +20,7 @@ To run this software, I recommend you install a gaze tracker, such as Tobii EyeX
 
 ![Precision Gaze Mouse hardware](../images/Precision%20Gaze%20Mouse%20hardware.jpg)
 
-For head tracking my favorite option is [Enable Viacam (eViacam)](http://eviacam.crea-si.com/). It tracks your head position using a standard webcam. It's more accurate than the EyeX's own head tracking, likely because it tracks many points on your face.
+For head tracking my favorite option is [Enable Viacam (eViacam)](http://eviacam.crea-si.com/). It tracks your head position using a standard webcam. It's more accurate than the EyeX's own head tracking, likely because it tracks many points on your face. It also doesn't require you to wear an IR device.
 
 If you prefer infrared tracking, then TrackIR is really good. It tracks an infrared headset you clip to a hat or your headphones. It works best with contacts instead of glasses because the light from the EyeX can reflect off your glasses and distract it. It's also possible to use the SmartNav which tracks a small reflective dot.
 
