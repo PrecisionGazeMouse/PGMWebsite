@@ -8,7 +8,7 @@ item  :
   - icon  : tf-ion-ios-timer-outline
     title : Speed and precision
     description : >
-      Combines speed of eye tracking with precision of head tracking.
+      Combines speed of eye tracking with head-tracking for single-pixel precision.
 
   - icon  : tf-ion-ios-cog-outline
     title : Supports multiple devices
