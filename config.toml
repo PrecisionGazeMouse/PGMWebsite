@@ -53,11 +53,11 @@ DefaultContentLanguage = "en"
         enable  = true
         title   = "How it works"
         description = """
-We combine the speed of eye gaze tracking with the precision of head tracking. 
+We combine the speed of eye gaze tracking with head tracking for single-pixel precision.
 
-Eye gaze tracking lets you instantly move or “warp” the mouse pointer to the area of the screen where you’re looking. Often, it will warp right where you want the pointer, but sometimes you’ll need to make a small adjustment.
+Eye gaze tracking lets you instantly move or “warp” the mouse pointer to the area of the screen where you’re looking. It's very fast but its only accurate within about 1-4cm as the gaze point jitters with your natural eye saccades.
         
-Move your head slightly up and down or to the side to precisely click on small buttons or pieces of text. It only requires a small movement to adjust the pointer.
+To move the cursor with single-pixel precision and click on small buttons or pieces of text, move your head slightly up and down or to the side. It only requires a small movement which helps you avoid muscle fatigue. Head tracking is used exclusively to control the mouse within a small radius to avoid the jitter of eye tracking.
 
 When you move your regular mouse, the Precision Gaze Mouse pauses automatically so your regular mouse can take over. This lets you easily switch back and forth.
 
@@ -70,7 +70,7 @@ Learn more about how it works in our [user manual](manual)."""
         enable  = true
         title   = "Better precision than other eye trackers"
         description = """
-Other eye tracking solutions struggle to offer precision resulting in a pointer that jitters or requires a cumbersome "zooming in" process to click on small targets. The eye naturally jitters (or saccades) when you look at a fixed point, even though you don't notice it happening. This limits the precision of eye tracking.
+Other eye tracking solutions struggle to offer single-pixel precision resulting in a pointer that jitters or requires a cumbersome "zooming in" process to click on small targets. The eye naturally jitters (or saccades) when you look at a fixed point, even though you don't notice it happening. This limits the precision of eye tracking.
 
 The Precision Gaze Mouse gives you smooth control by not changing position until you look outside a small 1-4 cm radius. Head tracking is used to point at small targets within this radius. As a result, you get natural mouse control with both speed and precision.
 
