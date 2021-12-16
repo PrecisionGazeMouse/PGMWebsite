@@ -5,11 +5,11 @@ description: "This is meta description"
 
 ## System requirements
 
-To run this software, I recommend you install a gaze tracker, such as Tobii EyeX, and a head tracker such as webcam. It also requires Windows 7 or higher. I’ve tested with the below hardware, but other options may work.
+To run this software, I recommend you install a gaze tracker, such as Tobii Eye Tracker, and a head tracker such as webcam. It also requires Windows 7 or higher. I’ve tested with the below hardware, but other options may work.
 
 **Recommended Hardware:**
 
-* [Tobii EyeX 4C or 5](https://tobiigaming.com/products/#peripherals) (~$139)
+* [Tobii Eye Tracker 4C or 5](https://tobiigaming.com/products/#peripherals) (~$139)
 * A webcam
 
 **Also Supports:**
@@ -20,9 +20,9 @@ To run this software, I recommend you install a gaze tracker, such as Tobii EyeX
 
 ![Precision Gaze Mouse hardware](../images/Precision%20Gaze%20Mouse%20hardware.jpg)
 
-For head tracking my favorite option is [Enable Viacam (eViacam)](http://eviacam.crea-si.com/). It tracks your head position using a standard webcam. It's more accurate than the EyeX's own head tracking, likely because it tracks many points on your face. It also doesn't require you to wear an IR device.
+For head tracking my favorite option is [Enable Viacam (eViacam)](http://eviacam.crea-si.com/). It tracks your head position using a standard webcam. It's more accurate than the Tobii's own head tracking, likely because it tracks many points on your face. It also doesn't require you to wear an IR device.
 
-If you prefer infrared tracking, then TrackIR is really good. It tracks an infrared headset you clip to a hat or your headphones. It works best with contacts instead of glasses because the light from the EyeX can reflect off your glasses and distract it. It's also possible to use the SmartNav which tracks a small reflective dot.
+If you prefer infrared tracking, then TrackIR is really good. It tracks an infrared headset you clip to a hat or your headphones. It works best with contacts instead of glasses because the light from the Tobii Eye Tracker can reflect off your glasses and distract it. It's also possible to use the SmartNav which tracks a small reflective dot.
 
 You can use the the lower cost original EyeX, but you won’t be able to use head tracking in EyeX Only mode. Head tracking is included in version 4C of higher. The 4C is also compatible with more computers since it supports USB 2 and 3.
 
@@ -30,7 +30,7 @@ You also need a way to click, and there are several choices. A regular keyboard 
 
 ## Installation
 
-[Install the latest release](install/publish.htm) using our installer. Next, if you have the eViacam, TrackIR or EyeX, follow the instructions below to set them up. Calibrate each and run them in the background. Lastly, start the Precision Gaze Mouse program. After initializing, the status field should say “Running”.
+[Install the latest release](install/publish.htm) using our installer. Next, if you have the eViacam, TrackIR or Tobii Eye Tracker, follow the instructions below to set them up. Calibrate each and run them in the background. Lastly, start the Precision Gaze Mouse program. After initializing, the status field should say “Running”.
 
 ##### eViacam Instructions
 
@@ -51,10 +51,10 @@ Here are several settings allowing you to customize the behavior of the mouse.
 
 ##### Tracker Mode
 
-* EyeX and eViacam – Use EyeX gaze tracking to warp your mouse pointer quickly, and eViacam webcam head tracking to precisely control the pointer. This is the recommended mode.
-* EyeX and TrackIR – Use EyeX gaze tracking to warp your mouse pointer quickly, and TrackIR head tracking to precisely control the pointer.
-* EyeX and SmartNav – Use EyeX gaze tracking to warp your mouse pointer quickly, and SmartNav head tracking to precisely control the pointer.
-* EyeX Only – Use EyeX gaze tracking to warp your mouse pointer quickly, and EyeX head tracking to precisely control the pointer. Requires EyeX 4C or higher. Warning: the accuracy is not very good.
+* EyeX and eViacam – Use Tobii EyeX gaze tracking to warp your mouse pointer quickly, and eViacam webcam head tracking to precisely control the pointer. This is the recommended mode.
+* EyeX and TrackIR – Use Tobii EyeX gaze tracking to warp your mouse pointer quickly, and TrackIR head tracking to precisely control the pointer.
+* EyeX and SmartNav – Use Tobii EyeX gaze tracking to warp your mouse pointer quickly, and SmartNav head tracking to precisely control the pointer.
+* EyeX Only – Use Tobii EyeX gaze tracking to warp your mouse pointer quickly, and EyeX head tracking to precisely control the pointer. Requires Tobii Eye Tracker 4C or higher. Warning: the accuracy is not very good.
 * TrackIR Only – Use TrackIR head tracking alone to control the mouse pointer, along with your chosen movement and click modes.
 * eViacam Only – Use eViacam head tracking alone to control the mouse pointer motion, along with your chosen movement and click modes.
 
