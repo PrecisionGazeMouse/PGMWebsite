@@ -5,7 +5,7 @@ description: "This is meta description"
 
 ## System requirements
 
-To run this software, I recommend you install a gaze tracker, such as Tobii Eye Tracker, and a head tracker such as webcam. It also requires Windows 7 or higher. I’ve tested with the below hardware, but other options may work.
+To run this software, I recommend you install a gaze tracker, such as Tobii Eye Tracker, and a head tracker such as webcam. It also requires Windows 7 or 10. I’ve tested with the below hardware, but other options may work.
 
 **Recommended Hardware:**
 
@@ -31,6 +31,8 @@ You also need a way to click, and there are several choices. A regular keyboard 
 ## Installation
 
 [Install the latest release](install/publish.htm) using our installer. Next, if you have the eViacam, TrackIR or Tobii Eye Tracker, follow the instructions below to set them up. Calibrate each and run them in the background. Lastly, start the Precision Gaze Mouse program. After initializing, the status field should say “Running”.
+
+Some users have reported the need to install the [Visual C++ Redistributable for Visual Studio 2012](https://www.microsoft.com/en-us/download/details.aspx?id=30679) as well.
 
 ##### eViacam Instructions
 
