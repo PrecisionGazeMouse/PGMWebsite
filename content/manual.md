@@ -3,6 +3,20 @@ title: User Manual
 description: "This is meta description"
 ---
 
+## Project status
+
+I started this project in 2017 because there were no other options available at the time, with the hopes that another program would adopt the technique. I can now recommend [Talon Voice](https://talonvoice.com) since it offers good cross-platform support and compatible functionality. It also has native support for both eye and head tracking without using third party software. For example, to enable movement on key press and click on key, the following talon file will work:
+
+```
+key(f3:down):
+  user.mouse_toggle_control_mouse(1)
+key(f3:up):
+  user.mouse_toggle_control_mouse(0)
+  mouse_click()
+```
+
+I have stopped maintaining this program in 2023. However, it is open source so I will let the community take if forward if you desire. It is [looking for a mainainer](https://github.com/PrecisionGazeMouse/PrecisionGazeMouse/issues/93#issuecomment-1410405265) if you are interested.
+
 ## System requirements
 
 To run this software, I recommend you install a gaze tracker, such as Tobii Eye Tracker, and a head tracker such as webcam. It also requires Windows 7 or 10. I’ve tested with the below hardware, but other options may work.
